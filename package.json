@@ -1,0 +1,24 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview"
+  },
+  "devDependencies": {
+    "@esbuild-plugins/node-globals-polyfill": "^0.1.1",
+    "@nuxtjs/tailwindcss": "^5.0.3",
+    "@vueuse/core": "^8.3.1",
+    "@vueuse/nuxt": "^8.3.1",
+    "nuxt": "3.0.0-rc.1",
+    "rollup-plugin-node-polyfills": "^0.2.1"
+  },
+  "dependencies": {
+    "@instadapp/vue-web3": "^0.7.0",
+    "@web3-react/injected-connector": "^6.0.7",
+    "@web3-react/network-connector": "^6.1.9",
+    "@web3-react/walletconnect-connector": "^6.2.4",
+    "web3": "^1.7.3"
+  }
+}
