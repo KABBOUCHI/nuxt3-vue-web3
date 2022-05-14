@@ -1,0 +1,6 @@
+{
+	"appId": "com.kabbouchi.nuxt3capacitorweb3",
+	"appName": "Nuxt3CapacitorWeb3",
+	"webDir": ".output/public",
+	"bundledWebRuntime": false
+}

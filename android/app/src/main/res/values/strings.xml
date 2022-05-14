@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Nuxt3CapacitorWeb3</string>
+    <string name="title_activity_main">Nuxt3CapacitorWeb3</string>
+    <string name="package_name">com.kabbouchi.nuxt3capacitorweb3</string>
+    <string name="custom_url_scheme">com.kabbouchi.nuxt3capacitorweb3</string>
+</resources>
