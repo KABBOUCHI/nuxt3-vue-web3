@@ -77,13 +77,7 @@
 
 <script setup lang="ts">
 import { UnsupportedChainIdError } from "@instadapp/vue-web3";
-import {
-  injected,
-  network,
-  walletconnect,
-  ledger,
-  authereum,
-} from "~/connectors";
+import { injected, network, walletconnect } from "~/connectors";
 import {
   NoEthereumProviderError,
   UserRejectedRequestError as UserRejectedRequestErrorInjected,
@@ -109,8 +103,7 @@ function getErrorMessage(error: Error) {
     return "You're connected to an unsupported network.";
   } else if (
     error instanceof UserRejectedRequestErrorInjected ||
-    error instanceof UserRejectedRequestErrorWalletConnect ||
-    error instanceof UserRejectedRequestErrorFrame
+    error instanceof UserRejectedRequestErrorWalletConnect
   ) {
     return "Please authorize this website to access your Ethereum account.";
   } else {
