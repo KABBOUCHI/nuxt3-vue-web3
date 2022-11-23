@@ -8,5 +8,5 @@ export default defineNuxtConfig({
 
     web3 :{
         autoImport: false,
-    }
+    },  
 })
